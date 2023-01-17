@@ -10,7 +10,8 @@ function type() {
   
   if(i >= sentence.length) {
     clearInterval(timer);
+    console.log('')
   }
 }
 
-timer = setInterval(type, 1000);
+timer = setInterval(type, 10);
